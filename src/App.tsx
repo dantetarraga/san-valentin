@@ -147,7 +147,7 @@ function App() {
 
         <div className='w-full max-w-xs gap-5 mx-auto sm:max-w-sm md:max-w-md sm:mb-6 md:mb-8'>
           <div className='bg-white rounded-2xl p-3 shadow-[0_0_15px_rgba(0,0,0,0.1),0_0_3px_rgba(0,0,0,0.05)] transform transition-all hover:scale-105 hover:rotate-2'>
-            <div className='relative mx-auto overflow-hidden w-72 h-72 rounded-xl'>
+            <div className='relative w-full h-full mx-auto overflow-hidden rounded-xl'>
               <img
                 src={valentineGifs[currentGifIndex]}
                 alt='Valentine'
